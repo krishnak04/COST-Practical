@@ -1,0 +1,12 @@
+A=matrix(c(1,2,3,2,-1,1,2,1,1),nrow=3)
+A
+A1=det(A)
+A1
+A2=solve(A)
+A2
+B=matrix(c(4,-1,1,1),nrow=2)
+B
+B1=det(B)
+B1
+B2=solve(B)
+B2

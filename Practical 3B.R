@@ -1,0 +1,16 @@
+A=matrix(c(2,1,-1,4),nrow=2)
+A
+B=matrix(c(6,4,1,0),nrow=2)
+B
+C=matrix(c(3,1,-1,2),nrow=2)
+C
+A1=3*A+5*B
+A1
+B1=4*B-3*C
+B1
+C1=2*A-3*B+4*C
+C1
+D1=A%*%B
+D1
+E1=B%*%C
+E1

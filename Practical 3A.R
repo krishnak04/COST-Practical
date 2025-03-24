@@ -1,0 +1,12 @@
+A=matrix(c(1,2,3,4,-1,1,1,1),nrow=2,ncol=4,byrow=T)
+A1=t(A)
+A1
+B=matrix(c(1,4,-3,1,-1,1),nrow=3,ncol=2,byrow=T)
+B1=t(B)
+B1
+C=matrix(c(1,3,-1,1,5),nrow=1)
+C1=t(C)
+C1
+D=matrix(c(6,-1,1,4),nrow=2,ncol=2,byrow=T)
+D1=t(D)
+D1
