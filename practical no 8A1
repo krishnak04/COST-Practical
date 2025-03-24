@@ -1,0 +1,9 @@
+#Ho:Book dist from library are uniformly dist
+#H1:Book dist from library are not uniformly dist
+x=c(40,50,80,30,60,40)
+c=chisq.test(x)
+c
+n=6
+cv=qchisq(0.01,df=n-1,lower.tail=FALSE)
+cv
+cat("since c > cv,books issued from library are not uniformly dist \n")

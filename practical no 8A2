@@ -1,0 +1,9 @@
+#Ho:Die is unbaised
+#H1:Die is baised
+x=c(48,32,50,65,15,30)
+c=chisq.test(x)
+c
+n=6
+cv=qchisq(0.05,df=n-1,lower.tail=FALSE)
+cv
+cat("since c > cv,die is baised \n")
